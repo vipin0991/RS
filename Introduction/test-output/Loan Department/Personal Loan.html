@@ -55,18 +55,64 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Personal Loan</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 12 20:01:29 IST 2022</td>
+<td>Started on:</td><td>Tue Sep 13 23:37:09 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (59 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (102 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>Smoke </td>
+<td>Included groups:</td><td></td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGTutorial.day1.demo()'><b>demo</b><br>Test class: testNGTutorial.day1</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testNGTutorial.day1.demo(day1.java:11)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1194280444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1194280444'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at org.testng.Assert.assertTrue(Assert.java:47)
+	at testNGTutorial.day1.demo(day1.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>testNGTutorial.day1@48524010</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,20 +121,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGTutorial.day4.APILoginHomeLoan()'><b>APILoginHomeLoan</b><br>Test class: testNGTutorial.day4</td>
+<td title='testNGTutorial.day4.APILoginHomeLoan()'><b>APILoginHomeLoan</b><br>Test class: testNGTutorial.day4<br>Parameters: personalLoan.com, 123456</td>
 <td></td>
 <td>0</td>
-<td>testNGTutorial.day4@2d9d4f9d</td></tr>
+<td>testNGTutorial.day4@1a84f40f</td></tr>
 <tr>
-<td title='testNGTutorial.day3.WebLoginCarLoan()'><b>WebLoginCarLoan</b><br>Test class: testNGTutorial.day3</td>
+<td title='testNGTutorial.day1.demo2()'><b>demo2</b><br>Test class: testNGTutorial.day1</td>
 <td></td>
 <td>0</td>
-<td>testNGTutorial.day3@2ed0fbae</td></tr>
+<td>testNGTutorial.day1@48524010</td></tr>
+<tr>
+<td title='testNGTutorial.day2.ploan2()'><b>ploan2</b><br>Test class: testNGTutorial.day2</td>
+<td></td>
+<td>0</td>
+<td>testNGTutorial.day2@16aa0a0a</td></tr>
 <tr>
 <td title='testNGTutorial.day2.ploan3()'><b>ploan3</b><br>Test class: testNGTutorial.day2</td>
 <td></td>
 <td>0</td>
-<td>testNGTutorial.day2@50a7bc6e</td></tr>
+<td>testNGTutorial.day2@16aa0a0a</td></tr>
 </table><p>
 </body>
 </html>

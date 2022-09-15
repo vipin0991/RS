@@ -29,19 +29,79 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Car loan</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Personal Loan</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.1 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="3">testNGTutorial.day2<td><a href="#m1"><b>perloan4</b>  </a></td><td class="numi">1</td><td>1663003600463</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m2"><b>ploan2</b>  </a></td><td class="numi">1</td><td>1663003600441</td><td class="numi">6</td></tr><tr class="passedodd"><td><a href="#m3"><b>ploan3</b> (Smoke) </a></td><td class="numi">1</td><td>1663003600456</td><td class="numi">2</td></tr>
+<tr><th colspan="4">Car loan &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">testNGTutorial.day3<td><a href="#m1"><b>APILoginCarLoan</b>  </a></td><td class="numi">1</td><td>1663092429388</td><td class="numi">9</td></tr><tr class="passedodd"><td><a href="#m2"><b>WebLoginCarLoan</b> (Smoke) </a></td><td class="numi">1</td><td>1663092429413</td><td class="numi">3</td></tr><tr class="passedodd"><td><a href="#m3"><b>padLoginCarLoan</b>  </a></td><td class="numi">3</td><td>1663092429425</td><td class="numi">23</td></tr><tr class="passedodd"><td><a href="#m4"><b>padLoginCarLoan</b>  </a></td><td class="numi">3</td><td>1663092429425</td><td class="numi">23</td></tr><tr class="passedodd"><td><a href="#m5"><b>padLoginCarLoan</b>  </a></td><td class="numi">3</td><td>1663092429425</td><td class="numi">23</td></tr>
+<tr><th colspan="4">Personal Loan &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">testNGTutorial.day1<td><a href="#m6"><b>demo</b>  </a></td><td class="numi">1</td><td>1663092429388</td><td class="numi">11</td></tr>
+<tr><th colspan="4">Personal Loan &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">testNGTutorial.day1<td><a href="#m7"><b>demo2</b>  </a></td><td class="numi">1</td><td>1663092429418</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="2">testNGTutorial.day2<td><a href="#m8"><b>ploan2</b>  </a></td><td class="numi">1</td><td>1663092429422</td><td class="numi">15</td></tr><tr class="passedeven"><td><a href="#m9"><b>ploan3</b> (Smoke) </a></td><td class="numi">1</td><td>1663092429444</td><td class="numi">9</td></tr>
+<tr class="passedodd"><td rowspan="1">testNGTutorial.day4<td><a href="#m10"><b>APILoginHomeLoan</b> (Smoke) </a></td><td class="numi">1</td><td>1663092429461</td><td class="numi">2</td></tr>
 </table>
-<h1>Default test</h1>
-<a id="m1"></a><h2>testNGTutorial.day2:ploan3</h2>
+<h1>Car loan</h1>
+<a id="m1"></a><h2>testNGTutorial.day3:padLoginCarLoan</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">secondUserName</td>
+<td style="padding-left:.5em;padding-right:2em">secondUserPassword</td>
+</tr>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m2"></a><h2>testNGTutorial.day2:ploan2</h2>
+<a id="m2"></a><h2>testNGTutorial.day3:padLoginCarLoan</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">thirdUserName</td>
+<td style="padding-left:.5em;padding-right:2em">thirdUserPassword</td>
+</tr>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m3"></a><h2>testNGTutorial.day2:perloan4</h2>
+<a id="m3"></a><h2>testNGTutorial.day3:WebLoginCarLoan</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>testNGTutorial.day3:APILoginCarLoan</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">carLoan.com</td>
+<td style="padding-left:.5em;padding-right:2em">ABC000987</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>testNGTutorial.day3:padLoginCarLoan</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">firstUserName</td>
+<td style="padding-left:.5em;padding-right:2em">firstUserPassword</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Personal Loan</h1>
+<a id="m6"></a><h2>testNGTutorial.day1:demo</h2>
+<div style="padding-left:3em">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:89)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:489)
+<br/>at org.testng.Assert.assertTrue(Assert.java:37)
+<br/>at org.testng.Assert.assertTrue(Assert.java:47)
+<br/>at testNGTutorial.day1.demo(day1.java:11)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>testNGTutorial.day4:APILoginHomeLoan</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">personalLoan.com</td>
+<td style="padding-left:.5em;padding-right:2em">123456</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>testNGTutorial.day1:demo2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>testNGTutorial.day2:ploan3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>testNGTutorial.day2:ploan2</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

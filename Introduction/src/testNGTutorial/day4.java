@@ -1,6 +1,7 @@
 package testNGTutorial;
 
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class day4 {
@@ -16,9 +17,12 @@ public class day4 {
 	public void afterSuite() {
 		System.out.println("afterSuite");
 	}
+	@Parameters({"URL","key"})
 	@Test(groups= {"Smoke"})
-	public void APILoginHomeLoan() {
+	public void APILoginHomeLoan(String url, String key) {
 		System.out.println("APILoginHomeLoan");
+		System.out.println(url);
+		System.out.println(key);
 	}
 
 }

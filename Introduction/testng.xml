@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Loan Department">
+<suite name="Loan Department" parallel="tests" thread-count="6">
+	<listeners>
+	<listener class-name="testNGTutorial.listener"/>
+	</listeners>
   <test thread-count="5" name="Personal Loan">
-    <classes>
-      <class name="testNGTutorial.day1"/>
-      <class name="testNGTutorial.day2">
-      	<methods>
-      		<include name="ploan.*"/>
-      	</methods>
-      </class>
-      <class name="testNGTutorial.day4">
-      	<methods>
-      		<include name="APILoginHomeLoan"/>
-      	</methods>
-      </class>
-    </classes>
+		  <parameter name="URL" value="personalLoan.com"/>
+		   <parameter name="key" value="123456"/>
+		    <classes>
+		      <class name="testNGTutorial.day1"/>
+		      <class name="testNGTutorial.day2">
+		      	<methods>
+		      		<include name="ploan.*"/>
+		      	</methods>
+		      </class>
+		      <class name="testNGTutorial.day4">
+		      	<methods>
+		      		<include name="APILoginHomeLoan"/>
+		      	</methods>
+		      </class>
+		    </classes>
    </test>
-   <test thread-count="5" name="Car loan">
+  <test thread-count="5" name="Car loan">
+    <parameter name="URL" value="carLoan.com"/>
+      <parameter name="key" value="ABC000987"/>
 	   <classes>
 		   <class name="testNGTutorial.day3">
 			   <methods>
